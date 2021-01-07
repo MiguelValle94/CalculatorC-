@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MIGUEL\\FRONTEND\\NET\\Calculator\\Calculator\\Calculator.csproj": {}
+    "C:\\MIGUEL\\FRONTEND\\NET\\CalculatorC-\\Calculator\\Calculator.csproj": {}
   },
   "projects": {
-    "C:\\MIGUEL\\FRONTEND\\NET\\Calculator\\Calculator\\Calculator.csproj": {
+    "C:\\MIGUEL\\FRONTEND\\NET\\CalculatorC-\\Calculator\\Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MIGUEL\\FRONTEND\\NET\\Calculator\\Calculator\\Calculator.csproj",
+        "projectUniqueName": "C:\\MIGUEL\\FRONTEND\\NET\\CalculatorC-\\Calculator\\Calculator.csproj",
         "projectName": "Calculator",
-        "projectPath": "C:\\MIGUEL\\FRONTEND\\NET\\Calculator\\Calculator\\Calculator.csproj",
+        "projectPath": "C:\\MIGUEL\\FRONTEND\\NET\\CalculatorC-\\Calculator\\Calculator.csproj",
         "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\MIGUEL\\FRONTEND\\NET\\Calculator\\Calculator\\obj\\",
+        "outputPath": "C:\\MIGUEL\\FRONTEND\\NET\\CalculatorC-\\Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",

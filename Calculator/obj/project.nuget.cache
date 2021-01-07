@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uCoHtAriBrEJw/nWhQFOIQe/u7O5qbn7aPCSqoNrHOZ6f1PkbOxBQQYawO0vkvq2YTZDYO8LvE+DhCT1Z5BSVQ==",
+  "dgSpecHash": "AEYAqcZOf2fERjZrUuICQM6HhoJtgXfvfploWR5PcbBpo5dSLrPi6qBZksOVajXsBeMurkwtqilTbszz3JuUuQ==",
   "success": true,
-  "projectFilePath": "C:\\MIGUEL\\FRONTEND\\NET\\Calculator\\Calculator\\Calculator.csproj",
+  "projectFilePath": "C:\\MIGUEL\\FRONTEND\\NET\\CalculatorC-\\Calculator\\Calculator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
