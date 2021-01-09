@@ -30,5 +30,10 @@ namespace Calculator
             currentValue = currentValue * 10 + buttonValue;
             txtValue.Text = currentValue.ToString();
         }
+
+        private void buttonC_Click(object sender, EventArgs e)
+        {
+            txtValue.Text = "0";
+        }
     }
 }
