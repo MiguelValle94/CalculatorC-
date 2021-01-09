@@ -47,7 +47,7 @@ namespace Calculator
             this.buttonEq = new System.Windows.Forms.Button();
             this.buttonNum0 = new System.Windows.Forms.Button();
             this.buttonC = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtValue = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // buttonNum7
@@ -59,6 +59,7 @@ namespace Calculator
             this.buttonNum7.TabIndex = 0;
             this.buttonNum7.Text = "7";
             this.buttonNum7.UseVisualStyleBackColor = true;
+            this.buttonNum7.Click += new System.EventHandler(this.buttonNum7_Click);
             // 
             // buttonNum8
             // 
@@ -69,6 +70,7 @@ namespace Calculator
             this.buttonNum8.TabIndex = 1;
             this.buttonNum8.Text = "8";
             this.buttonNum8.UseVisualStyleBackColor = true;
+            this.buttonNum8.Click += new System.EventHandler(this.buttonNum8_Click);
             // 
             // buttonNum9
             // 
@@ -79,6 +81,7 @@ namespace Calculator
             this.buttonNum9.TabIndex = 2;
             this.buttonNum9.Text = "9";
             this.buttonNum9.UseVisualStyleBackColor = true;
+            this.buttonNum9.Click += new System.EventHandler(this.buttonNum9_Click);
             // 
             // buttonAdd
             // 
@@ -109,6 +112,7 @@ namespace Calculator
             this.buttonNum6.TabIndex = 6;
             this.buttonNum6.Text = "6";
             this.buttonNum6.UseVisualStyleBackColor = true;
+            this.buttonNum6.Click += new System.EventHandler(this.buttonNum6_Click);
             // 
             // buttonNum5
             // 
@@ -119,6 +123,7 @@ namespace Calculator
             this.buttonNum5.TabIndex = 5;
             this.buttonNum5.Text = "5";
             this.buttonNum5.UseVisualStyleBackColor = true;
+            this.buttonNum5.Click += new System.EventHandler(this.buttonNum5_Click);
             // 
             // buttonNum4
             // 
@@ -129,6 +134,7 @@ namespace Calculator
             this.buttonNum4.TabIndex = 4;
             this.buttonNum4.Text = "4";
             this.buttonNum4.UseVisualStyleBackColor = true;
+            this.buttonNum4.Click += new System.EventHandler(this.buttonNum4_Click);
             // 
             // buttonProd
             // 
@@ -149,6 +155,7 @@ namespace Calculator
             this.buttonNum3.TabIndex = 10;
             this.buttonNum3.Text = "3";
             this.buttonNum3.UseVisualStyleBackColor = true;
+            this.buttonNum3.Click += new System.EventHandler(this.buttonNum3_Click);
             // 
             // buttonNum2
             // 
@@ -159,6 +166,7 @@ namespace Calculator
             this.buttonNum2.TabIndex = 9;
             this.buttonNum2.Text = "2";
             this.buttonNum2.UseVisualStyleBackColor = true;
+            this.buttonNum2.Click += new System.EventHandler(this.buttonNum2_Click);
             // 
             // buttonNum1
             // 
@@ -169,6 +177,7 @@ namespace Calculator
             this.buttonNum1.TabIndex = 8;
             this.buttonNum1.Text = "1";
             this.buttonNum1.UseVisualStyleBackColor = true;
+            this.buttonNum1.Click += new System.EventHandler(this.buttonNum1_Click);
             // 
             // buttonDiv
             // 
@@ -199,6 +208,7 @@ namespace Calculator
             this.buttonNum0.TabIndex = 13;
             this.buttonNum0.Text = "0";
             this.buttonNum0.UseVisualStyleBackColor = true;
+            this.buttonNum0.Click += new System.EventHandler(this.buttonNum0_Click);
             // 
             // buttonC
             // 
@@ -210,23 +220,23 @@ namespace Calculator
             this.buttonC.Text = "C";
             this.buttonC.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txtValue
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(52, 39);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(338, 35);
-            this.textBox1.TabIndex = 16;
-            this.textBox1.Text = "0";
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtValue.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtValue.Location = new System.Drawing.Point(52, 39);
+            this.txtValue.Name = "txtValue";
+            this.txtValue.Size = new System.Drawing.Size(338, 35);
+            this.txtValue.TabIndex = 16;
+            this.txtValue.Text = "0";
+            this.txtValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtValue.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtValue);
             this.Controls.Add(this.buttonDiv);
             this.Controls.Add(this.buttonEq);
             this.Controls.Add(this.buttonNum0);
@@ -268,7 +278,7 @@ namespace Calculator
         private System.Windows.Forms.Button buttonEq;
         private System.Windows.Forms.Button buttonNum0;
         private System.Windows.Forms.Button buttonC;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtValue;
     }
 }
 
