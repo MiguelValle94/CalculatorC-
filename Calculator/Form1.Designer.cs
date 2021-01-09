@@ -229,7 +229,6 @@ namespace Calculator
             this.txtValue.TabIndex = 16;
             this.txtValue.Text = "0";
             this.txtValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.txtValue.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Form1
             // 

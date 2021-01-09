@@ -25,7 +25,10 @@ namespace Calculator
         private void NumberAction(object sender, EventArgs e)
         {
             Button button = (Button)sender;
-            txtValue.Text = button.Text;
+            int buttonValue = int.Parse(button.Text);
+            int currentValue = int.Parse(txtValue.Text);
+            currentValue = currentValue * 10 + buttonValue;
+            txtValue.Text = currentValue.ToString();
         }
     }
 }
