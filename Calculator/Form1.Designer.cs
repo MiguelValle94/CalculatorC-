@@ -59,7 +59,7 @@ namespace Calculator
             this.buttonNum7.TabIndex = 0;
             this.buttonNum7.Text = "7";
             this.buttonNum7.UseVisualStyleBackColor = true;
-            this.buttonNum7.Click += new System.EventHandler(this.buttonNum7_Click);
+            this.buttonNum7.Click += new System.EventHandler(this.NumberAction);
             // 
             // buttonNum8
             // 
@@ -70,7 +70,7 @@ namespace Calculator
             this.buttonNum8.TabIndex = 1;
             this.buttonNum8.Text = "8";
             this.buttonNum8.UseVisualStyleBackColor = true;
-            this.buttonNum8.Click += new System.EventHandler(this.buttonNum8_Click);
+            this.buttonNum8.Click += new System.EventHandler(this.NumberAction);
             // 
             // buttonNum9
             // 
@@ -81,7 +81,7 @@ namespace Calculator
             this.buttonNum9.TabIndex = 2;
             this.buttonNum9.Text = "9";
             this.buttonNum9.UseVisualStyleBackColor = true;
-            this.buttonNum9.Click += new System.EventHandler(this.buttonNum9_Click);
+            this.buttonNum9.Click += new System.EventHandler(this.NumberAction);
             // 
             // buttonAdd
             // 
@@ -112,7 +112,7 @@ namespace Calculator
             this.buttonNum6.TabIndex = 6;
             this.buttonNum6.Text = "6";
             this.buttonNum6.UseVisualStyleBackColor = true;
-            this.buttonNum6.Click += new System.EventHandler(this.buttonNum6_Click);
+            this.buttonNum6.Click += new System.EventHandler(this.NumberAction);
             // 
             // buttonNum5
             // 
@@ -123,7 +123,7 @@ namespace Calculator
             this.buttonNum5.TabIndex = 5;
             this.buttonNum5.Text = "5";
             this.buttonNum5.UseVisualStyleBackColor = true;
-            this.buttonNum5.Click += new System.EventHandler(this.buttonNum5_Click);
+            this.buttonNum5.Click += new System.EventHandler(this.NumberAction);
             // 
             // buttonNum4
             // 
@@ -134,7 +134,7 @@ namespace Calculator
             this.buttonNum4.TabIndex = 4;
             this.buttonNum4.Text = "4";
             this.buttonNum4.UseVisualStyleBackColor = true;
-            this.buttonNum4.Click += new System.EventHandler(this.buttonNum4_Click);
+            this.buttonNum4.Click += new System.EventHandler(this.NumberAction);
             // 
             // buttonProd
             // 
@@ -155,7 +155,7 @@ namespace Calculator
             this.buttonNum3.TabIndex = 10;
             this.buttonNum3.Text = "3";
             this.buttonNum3.UseVisualStyleBackColor = true;
-            this.buttonNum3.Click += new System.EventHandler(this.buttonNum3_Click);
+            this.buttonNum3.Click += new System.EventHandler(this.NumberAction);
             // 
             // buttonNum2
             // 
@@ -166,7 +166,7 @@ namespace Calculator
             this.buttonNum2.TabIndex = 9;
             this.buttonNum2.Text = "2";
             this.buttonNum2.UseVisualStyleBackColor = true;
-            this.buttonNum2.Click += new System.EventHandler(this.buttonNum2_Click);
+            this.buttonNum2.Click += new System.EventHandler(this.NumberAction);
             // 
             // buttonNum1
             // 
@@ -177,7 +177,7 @@ namespace Calculator
             this.buttonNum1.TabIndex = 8;
             this.buttonNum1.Text = "1";
             this.buttonNum1.UseVisualStyleBackColor = true;
-            this.buttonNum1.Click += new System.EventHandler(this.buttonNum1_Click);
+            this.buttonNum1.Click += new System.EventHandler(this.NumberAction);
             // 
             // buttonDiv
             // 
@@ -208,7 +208,7 @@ namespace Calculator
             this.buttonNum0.TabIndex = 13;
             this.buttonNum0.Text = "0";
             this.buttonNum0.UseVisualStyleBackColor = true;
-            this.buttonNum0.Click += new System.EventHandler(this.buttonNum0_Click);
+            this.buttonNum0.Click += new System.EventHandler(this.NumberAction);
             // 
             // buttonC
             // 
