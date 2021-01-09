@@ -45,6 +45,8 @@ namespace Calculator
         private void buttonC_Click(object sender, EventArgs e)
         {
             txtValue.Text = "0";
+            acumulatedValue = 0;
+            selectedOperator = string.Empty;
         }
 
         private void buttonEq_Click(object sender, EventArgs e)
@@ -52,22 +54,22 @@ namespace Calculator
             int secondAcumulatedVale = int.Parse(txtValue.Text);
             int result = 0;
 
-            if (selectedOperator == "*")
+            switch (selectedOperator)
             {
-                result = acumulatedValue * secondAcumulatedVale; 
-            } 
-            else if (selectedOperator == "+")
-            {
-                result = acumulatedValue + secondAcumulatedVale;
+                case "+":
+                    result = acumulatedValue + secondAcumulatedVale;
+                    break;
+                case "-":
+                    result = acumulatedValue - secondAcumulatedVale;
+                    break;
+                case "*":
+                    result = acumulatedValue * secondAcumulatedVale;
+                    break;
+                case "/":
+                    result = acumulatedValue / secondAcumulatedVale;
+                    break;
             }
-            else if (selectedOperator == "-")
-            {
-                result = acumulatedValue - secondAcumulatedVale;
-            }
-            else if (selectedOperator == "/")
-            {
-                result = acumulatedValue / secondAcumulatedVale;
-            }
+
             txtValue.Text = result.ToString();
         }
     }
