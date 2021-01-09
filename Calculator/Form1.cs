@@ -46,5 +46,29 @@ namespace Calculator
         {
             txtValue.Text = "0";
         }
+
+        private void buttonEq_Click(object sender, EventArgs e)
+        {
+            int secondAcumulatedVale = int.Parse(txtValue.Text);
+            int result = 0;
+
+            if (selectedOperator == "*")
+            {
+                result = acumulatedValue * secondAcumulatedVale; 
+            } 
+            else if (selectedOperator == "+")
+            {
+                result = acumulatedValue + secondAcumulatedVale;
+            }
+            else if (selectedOperator == "-")
+            {
+                result = acumulatedValue - secondAcumulatedVale;
+            }
+            else if (selectedOperator == "/")
+            {
+                result = acumulatedValue / secondAcumulatedVale;
+            }
+            txtValue.Text = result.ToString();
+        }
     }
 }

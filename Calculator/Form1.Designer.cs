@@ -202,6 +202,7 @@ namespace Calculator
             this.buttonEq.TabIndex = 14;
             this.buttonEq.Text = "=";
             this.buttonEq.UseVisualStyleBackColor = true;
+            this.buttonEq.Click += new System.EventHandler(this.buttonEq_Click);
             // 
             // buttonNum0
             // 
