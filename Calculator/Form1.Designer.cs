@@ -92,6 +92,7 @@ namespace Calculator
             this.buttonAdd.TabIndex = 3;
             this.buttonAdd.Text = "+";
             this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.Click += new System.EventHandler(this.OperatorAction);
             // 
             // buttonRest
             // 
@@ -102,6 +103,7 @@ namespace Calculator
             this.buttonRest.TabIndex = 7;
             this.buttonRest.Text = "-";
             this.buttonRest.UseVisualStyleBackColor = true;
+            this.buttonRest.Click += new System.EventHandler(this.OperatorAction);
             // 
             // buttonNum6
             // 
@@ -145,6 +147,7 @@ namespace Calculator
             this.buttonProd.TabIndex = 11;
             this.buttonProd.Text = "*";
             this.buttonProd.UseVisualStyleBackColor = true;
+            this.buttonProd.Click += new System.EventHandler(this.OperatorAction);
             // 
             // buttonNum3
             // 
@@ -188,6 +191,7 @@ namespace Calculator
             this.buttonDiv.TabIndex = 15;
             this.buttonDiv.Text = "/";
             this.buttonDiv.UseVisualStyleBackColor = true;
+            this.buttonDiv.Click += new System.EventHandler(this.OperatorAction);
             // 
             // buttonEq
             // 

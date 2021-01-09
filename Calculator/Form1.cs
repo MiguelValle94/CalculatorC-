@@ -12,6 +12,9 @@ namespace Calculator
 {
     public partial class Form1 : Form
     {
+        string selectedOperator;
+        int acumulatedValue;
+
         public Form1()
         {
             InitializeComponent();
@@ -29,6 +32,14 @@ namespace Calculator
             int currentValue = int.Parse(txtValue.Text);
             currentValue = currentValue * 10 + buttonValue;
             txtValue.Text = currentValue.ToString();
+        }
+
+        private void OperatorAction (object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
+            selectedOperator = button.Text;
+            acumulatedValue = int.Parse(txtValue.Text);
+            txtValue.Text = "0";
         }
 
         private void buttonC_Click(object sender, EventArgs e)
